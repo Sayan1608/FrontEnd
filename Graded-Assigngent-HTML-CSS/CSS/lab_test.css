@@ -1,0 +1,122 @@
+#blood-test {
+    position: relative;
+    /* background-color: yellow; */
+    height: 1000px;
+    padding: 30px;
+}
+
+#test-form {
+    margin: 75px auto;
+    background-color: #B7C4CF;
+    width: 40%;
+    padding: 20px 20px 40px;
+    
+}
+
+#test-image {
+    position: absolute;
+    left: 70x0px;
+    background-color: bisque;
+    height: 938px;
+    width: 40%;
+    background-image: url("../images/lab-test/lab-test.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 75px auto;
+}
+
+
+.lab-test {
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="email"], 
+input[type = "tel"]
+{
+    border: none;
+    border-bottom: 2px solid steelblue;
+    background-color: #76BA99;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 40px;
+    width: 40%;
+    font-size: 15px;
+}
+
+input[type="text"]:focus,input[type = "email"]:focus,
+input[type = "tel"]:focus
+ {
+    background-color: #C7D36F;
+    outline: none;
+}
+
+label {
+    /* background-color: aqua; */
+    display: block;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    margin-right: 10px;
+}
+
+input[type="date"],
+input[type="time"] {
+    border: none;
+    border-bottom: 2px solid steelblue;
+    background-color: #76BA99;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 40px;
+    width: 40%;
+    margin-left: 20px;
+
+}
+
+button {
+    position: relative;
+    left: 60px;
+    top: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 40px;
+    width: 30%;
+    border: none;
+}
+
+.submit {
+    background-color: #3CCF4E;
+    color: white;
+}
+
+.submit:active {
+    background-color: #224B0C;
+}
+
+.reset {
+    background-color: #533483;
+    color: white;
+}
+
+.reset:active {
+    background-color: #42032C;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
