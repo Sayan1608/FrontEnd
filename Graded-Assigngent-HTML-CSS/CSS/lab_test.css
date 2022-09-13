@@ -1,12 +1,12 @@
 #blood-test {
     position: relative;
     /* background-color: yellow; */
-    height: 1000px;
+    /* height: 1000px; */
     padding: 30px;
 }
 
 #test-form {
-    margin: 75px auto;
+    
     background-color: #B7C4CF;
     width: 40%;
     padding: 20px 20px 40px;
@@ -14,15 +14,16 @@
 }
 
 #test-image {
-    position: absolute;
-    left: 70x0px;
-    background-color: bisque;
+    position: fixed;
+    /* left: 600px; */
+    /* background-color: bisque; */
     height: 938px;
     width: 40%;
     background-image: url("../images/lab-test/lab-test.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 75px auto;
+    background-size: 100% 68%;
+    
+    margin: 0px auto 75px;
 }
 
 

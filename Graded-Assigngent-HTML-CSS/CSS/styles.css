@@ -188,7 +188,10 @@ footer p {
 
 .covid-care {
     text-align: center;
-   
+    /* background-color: #554994; */
+    /* min-width: 950px; */
+    overflow-x: auto;
+
 }
 
 .covid-care-products {
@@ -221,6 +224,8 @@ footer p {
 
 .diabetes-care {
     text-align: center;
+    /* background-color: yellow; */
+    /* min-width: 950px; */
 }
 
 
@@ -271,11 +276,27 @@ button {
     border: none;
 }
 
-button:active{
+button:active {
     background-color: rgb(250, 234, 230);
     border: 2px solid #554994;
 
 }
 
+@media only screen and (max-width: 950px) {
 
+    .covid-care-products,
+    .diabetes-care-products
+    /* footer */
+    /* .nav-div  */
+    {
+        width: 100%;
+        margin: 20px;
+    }
+}
 
+@media only screen and (max-width: 950px) {
+    #navigator {
+        width: 100%;
+        margin: 0px;
+    }
+}
